@@ -1,8 +1,8 @@
 call plug#begin('~/.vim/plugged')
 
-Plug 'Valloric/YouCompleteMe'
+"Plug 'Valloric/YouCompleteMe'
 Plug 'vim-airline/vim-airline'
-Plug 'majutsushi/tagbar'
+"Plug 'majutsushi/tagbar'
 
 call plug#end()
 
@@ -29,5 +29,5 @@ set autoindent "自动对齐
 set hlsearch    "搜索匹配项高亮
 
 " tagbar 相关
-nmap <C-c> : TagbarToggle<CR>
-let g:tagbar_autofocus=1    "启动时自动 focus
+"nmap <C-c> : TagbarToggle<CR>
+"let g:tagbar_autofocus=1    "启动时自动 focus
