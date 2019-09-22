@@ -1,11 +1,3 @@
-call plug#begin('~/.vim/plugged')
-
-"Plug 'Valloric/YouCompleteMe'
-Plug 'vim-airline/vim-airline'
-"Plug 'majutsushi/tagbar'
-
-call plug#end()
-
 set fileencodings=utf-8,gb18030,gbk "设置打开文件编码，避免乱码
 set encoding=utf-8  "设置文件编码
 set nu	"行号
@@ -28,6 +20,3 @@ set smarttab
 set autoindent "自动对齐
 set hlsearch    "搜索匹配项高亮
 
-" tagbar 相关
-"nmap <C-c> : TagbarToggle<CR>
-"let g:tagbar_autofocus=1    "启动时自动 focus
