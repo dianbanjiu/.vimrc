@@ -70,9 +70,9 @@ noremap <Tab><Tab> :bNext<CR>
 " ycm config
 
 " nerdtree config
-autocmd vimenter * NERDTree    " open nerdtree when vim start vim
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif    " open nerdtree even no file specified
+"autocmd vimenter * NERDTree    " open nerdtree when vim start vim
+"autocmd StdinReadPre * let s:std_in=1
+"autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif    " open nerdtree even no file specified
 " press ctrl+e to switch nerdtree status 
 nmap <C-e> :call SwitchNerdtreeStatus()<CR>
 function SwitchNerdtreeStatus()
